@@ -1,0 +1,20 @@
+ice_cread:
+  name: アイスクリーム
+
+gum:
+  name: ガム
+
+bento:
+  name: 弁当
+
+onigiri:
+  name: おにぎり
+
+snack:
+  name: お菓子
+
+magazine:
+  name: 雑誌
+
+cigarette:
+  name: タバコ

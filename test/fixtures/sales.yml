@@ -1,0 +1,8 @@
+<% (1..28).each do |day| %>
+<% Product.all.each do |p| %>
+sales_of_<%= p.name %>_on_<%= day %>:
+  product_id: <%= p.id %>
+  sales_date: <%= "2014-02-#{day}".to_date %>
+  amount: <%= rand 1000 %>
+<% end %>
+<% end %>
